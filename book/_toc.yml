@@ -1,0 +1,46 @@
+# Table of contents
+format: jb-book
+root: intro
+
+parts:
+- chapters:
+    - file: acknowledgments
+    - file: askquestion
+
+- caption: Lectures
+  chapters:
+    - file: 1_topfile
+      title: 1 - Semantic universals
+      sections:
+        - file: 1_lecture
+          title: Lecture
+        - file: 1_reading
+          title: Reading
+    - file: 2_topfile
+      title: 2 - Learnability
+      sections:
+        - file: 2_lecture
+          title: Lecture
+        - file: 2_reading
+          title: Reading
+    - file: 3_topfile
+      title: 3 - Cultural evolution
+      sections:
+        - file: 3_lecture
+          title: Lecture
+        - file: 3_reading
+          title: Reading
+    - file: 4_topfile
+      title: 4 - Complexity
+      sections:
+        - file: 4_lecture
+          title: Lecture
+        - file: 4_reading
+          title: Reading
+    - file: 5_topfile
+      title: 5 - Tradeoff
+      sections:
+        - file: 5_lecture
+          title: Lecture
+        - file: 5_reading
+          title: Reading

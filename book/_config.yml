@@ -1,0 +1,39 @@
+title: "Modelling Language Evolution"
+author: Fausto Carcassi and Jakub Szymanik
+copyright: "2022"
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: "off"
+  # execute_notebooks: force
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
+
+# In _config.yml
+sphinx:
+  config:
+    bibtex_reference_style: author_year
+    html_extra_path: ['lectures']
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/thelogicalgrammar/ESSLLI22_langevo
+  path_to_book: book/
+  branch: master 
+
+# Add GitHub buttons to your book
+html:
+  use_issues_button: true
+  use_repository_button: true
+
+exclude_patterns: [
+    update_book.sh
+]
