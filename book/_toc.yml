@@ -12,15 +12,19 @@ parts:
     - file: 1_topfile
       title: 1 - Semantic universals
       sections:
-        - file: 1_lecture
-          title: Lecture
+        - file: 1.1_lecture
+          title: Lecture (part 1)
+        - file: 1.2_lecture
+          title: Lecture (part 2)
         - file: 1_reading
           title: Reading
     - file: 2_topfile
       title: 2 - Learnability
       sections:
-        - file: 2_lecture
-          title: Lecture
+        - file: 2.1_lecture
+          title: Lecture (part 1)
+        - file: 2.2_lecture
+          title: Lecture (part 2)
         - file: 2_reading
           title: Reading
     - file: 3_topfile
